@@ -10,7 +10,7 @@ This project provides a direct Windows syscall implementation that dynamically r
 - Fully written in C++
 - Customizable syscall table
 - Using masm to do execute our syscall
-- PE parsing, getting the syscall ID directly from the file on disk, to avoid Byte patching in runtime memory.
+- PE parsing, getting the syscall ID directly from the file on disk, to avoid byte patching at runtime memory.
 
 ## Requirements
 - Windows operating system
